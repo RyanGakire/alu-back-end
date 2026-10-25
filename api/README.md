@@ -9,6 +9,7 @@ Python scripts that get data from a REST API
 | ---- | ----------- |
 | `0-gather_data_from_an_API.py` | Takes an employee ID and prints how many of their TODO tasks are done, followed by the titles of the completed tasks. |
 | `1-export_to_CSV.py` | Takes an employee ID and saves all of their tasks to `USER_ID.csv` in the format `"USER_ID","USERNAME","TASK_COMPLETED_STATUS","TASK_TITLE"`. |
+| `2-export_to_JSON.py` | Takes an employee ID and saves all of their tasks to `USER_ID.json`, with the user ID as the key and a list of tasks (title, completed status, username) as the value. |
 
 ## Usage
 
